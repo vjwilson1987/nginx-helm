@@ -1,0 +1,8 @@
+---
+releases:
+
+  - name: nginx
+    namespace: web
+    createNamespace: true
+    chart: ./nginx-helm-dir
+    installed: true
